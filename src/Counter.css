@@ -1,0 +1,54 @@
+
+.counter_container {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+
+.counter_container h1 {
+    color: black;
+}
+
+.counter_container h2 {
+    font-size: 50px;
+    color: brown;
+    margin: 25px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.increment_btn, .decrementbtn, .resetbtn {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.increment_btn {
+    background-color: green;
+}
+.increment_btn:hover {
+    background-color: darkgreen;
+}
+.decrementbtn {
+    background-color: red;
+}
+.decrementbtn:hover {
+    background-color: darkred;
+}
+.resetbtn {
+    background-color: blue;
+}
+.resetbtn:hover {
+    background-color: darkblue;
+}
+.message {
+    color: red;
+    margin-top: 20px;
+    font-size: 14px;
+}
